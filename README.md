@@ -1,29 +1,41 @@
-# Predictive Analytics: Dublin Housing Market
+# Predictive Analytics: Dublin Housing Market  
 
-## 📌 Project Overview
-This project explores predictive modeling of Dublin housing prices as part of the MSc Business Analytics program at University College Cork. The goal was to identify key drivers of house prices and build machine learning models for accurate price prediction.
+## 📌 Project Overview  
+This project explores predictive modeling of Dublin housing prices using statistical and machine learning techniques. Implemented as part of my MSc Business Analytics program at University College Cork (UCC), the analysis applies regression models to real-world housing data to uncover key drivers of price variation and deliver actionable insights for forecasting.  
 
-## 🛠️ Tools & Technologies
-- Python, Pandas, NumPy
-- Scikit-learn, Matplotlib, Seaborn
-- Jupyter Notebook
+---
 
-## 🔍 Methodology
-1. Data preprocessing and exploratory analysis
-2. Feature engineering (handling missing values, encoding categorical variables)
-3. Model training (Linear Regression, Random Forest, Decision Tree)
-4. Performance evaluation using RMSE, R², and cross-validation
+## ✨ Key Features  
+- Data cleaning, feature engineering, and exploratory analysis.  
+- Applied regression models: **Linear Regression, Ridge, Lasso, Random Forest**.  
+- Model evaluation using **RMSE, R², and cross-validation**.  
+- Visualizations for feature importance and prediction accuracy.  
+- Comparison of baseline and advanced models to improve forecasting accuracy.  
 
-## 📊 Results
-- Random Forest achieved the best performance with R² = 0.87 and lowest RMSE.
-- Identified key factors influencing house prices such as location, number of rooms, and property size.
+---
 
-## 📂 Project Structure
-- `Predictive Analytics Final Assessment.ipynb` → Code
-- `report.pdf` → Full academic report with analysis
-- `requirements.txt` → Dependencies
+## 🛠 Tech Stack  
+- **Languages:** Python  
+- **Libraries:** pandas, numpy, matplotlib, seaborn, scikit-learn, statsmodels  
+- **Environment:** Jupyter Notebook  
 
-## 🚀 How to Run
-```bash
-pip install -r requirements.txt
-jupyter notebook
+---
+
+## 📊 Results  
+- Identified top features influencing house prices (e.g., location, property size, and amenities).  
+- Achieved **[insert best R² / RMSE score here from your report]**, demonstrating reliable predictive performance.  
+- Ridge regression generalized better than simple linear regression, reducing overfitting.  
+
+---
+
+## 🚀 How to Run  
+1. Clone the repository:  
+   ```bash
+   git clone https://github.com/nikhil26vaddadi/predictive-analytics-housing-market.git
+   cd predictive-analytics-housing-market
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+3. Open the notebook:
+   ```bash
+   jupyter notebook "Predictive Analytics Final Assesment Code-1.ipynb"
