@@ -41,3 +41,5 @@ This project explores predictive modeling of Dublin housing prices using statist
 3. Open the notebook:
    ```bash
    jupyter notebook "Predictive Analytics Final Assesment Code-1.ipynb"
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
