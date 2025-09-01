@@ -22,9 +22,9 @@ This project explores predictive modeling of Dublin housing prices using statist
 ---
 
 ## 📊 Results  
-- Identified top features influencing house prices (e.g., location, property size, and amenities).  
-- Achieved **[insert best R² / RMSE score here from your report]**, demonstrating reliable predictive performance.  
-- Ridge regression generalized better than simple linear regression, reducing overfitting.  
+- Ensemble methods (Random Forest, Gradient Boosting, and Stacking) outperformed baseline models.  
+- Achieved **75% accuracy** with Random Forest and Stacking models after hyperparameter tuning.  
+- Models demonstrated strong precision for predicting non-purchases, but recall for purchases remained a challenge due to class imbalance.  
 
 ---
 
