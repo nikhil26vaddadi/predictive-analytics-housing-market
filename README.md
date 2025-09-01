@@ -22,9 +22,11 @@ This project explores predictive modeling of Dublin housing prices using statist
 ---
 
 ## 📊 Results  
-- Ensemble methods (Random Forest, Gradient Boosting, and Stacking) outperformed baseline models.  
+- Ensemble methods (Random Forest, Gradient Boosting, and Stacking) consistently outperformed baseline models.  
 - Achieved **75% accuracy** with Random Forest and Stacking models after hyperparameter tuning.  
+- Logistic Regression improved from 61% baseline to **74% accuracy** with regularization.  
 - Models demonstrated strong precision for predicting non-purchases, but recall for purchases remained a challenge due to class imbalance.  
+ 
 
 ---
 
